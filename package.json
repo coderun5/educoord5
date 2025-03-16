@@ -1,0 +1,21 @@
+{
+  "name": "educoord",
+  "version": "1.0.0",
+  "description": "Sistema de gestão escolar para coordenar professores, alunos, planos de aula, notas e boletins",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3",
+    "ts-node": "^9.1.1",
+    "nodemon": "^2.0.7"
+  },
+  "author": "coderun5",
+  "license": "MIT"
+}
